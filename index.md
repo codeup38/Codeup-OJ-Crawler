@@ -17,7 +17,9 @@ repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler/
 기본적으로 제 Codeup-OJ-Crawler repo는 MIT license이기 때문에 자유롭게 이용, 활용하셔도 상관은 없으나  <br>
 **사이트의 운영자에게 허락을 구하는 것이 먼저입니다.**
 <br>
-예를 들어, [Codeup OJ](https://codeup.kr)같은 사이트에서 사용하시려면 사이트의 운영자인 [admin](https://codeup.kr/userinfo.php?user=kimgihong38)님에게 허락을 구하는 것이 먼저입니다.  
+예를 들어, [Codeup OJ](https://codeup.kr)같은 사이트에서 사용하시려면 사이트의 운영자인 [admin](https://codeup.kr/userinfo.php?user=admin)님에게 허락을 구하는 것이 먼저입니다.  
+<br>
+**실제로 저는 admin님에게 직접 사용 용도와 서버에 미칠 영향 등을 설명드리고 허락을 구했고, 허락을 받았습니다.**
 
 <br>
 이 점 유념해 주셨으면 좋겠습니다.
