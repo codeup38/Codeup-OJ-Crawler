@@ -52,7 +52,7 @@ AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'}
 1을 입력하세요.\n 원하지 않으면 0을 입력해주세요.\n: ')
     
     if newSubmit=='1':
-        print(lastSubmit()+'번 입니다.')
+        print(''+lastSubmit()+'번 입니다.')
 
                               
     start = input(' 크롤링할 첫 제출 번호를 입력하시오 \n: ')
