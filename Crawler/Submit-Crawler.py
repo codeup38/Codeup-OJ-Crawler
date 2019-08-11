@@ -28,26 +28,31 @@ from bs4 import BeautifulSoup
 # 7 len
 # 8 Time
 
+def lastSubmit():
+
+    user_agent = {'User-agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) \
+AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'}
+    
+    getreq = requests.get('https://codeup.kr/status.php', headers = user_agent)
+    gethtml = getreq.text
+    result = BeautifulSoup(gethtml, "html.parser")
+
+    new_submit = result.select (
+        'tr > td'
+        )
+
+    return new_submit[0].text
+
 def main():
 
     user_agent = {'User-agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) \
 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'}
 
-    
     newSubmit = input(' 가장 최근에 제출된 제출 번호를 알고 싶다면 \
 1을 입력하세요.\n 원하지 않으면 0을 입력해주세요.\n: ')
-
-    if newSubmit == '1':
-        getreq = requests.get('https://codeup.kr/status.php', headers = user_agent)
-        gethtml = getreq.text
-        result = BeautifulSoup(gethtml, "html.parser")
-
-        new_submit = result.select (
-            'tr > td'
-            )
-
-        print(new_submit[0].text+'번 입니다.')
-
+    
+    if newSubmit=='1':
+        print(lastSubmit()+'번 입니다.')
 
                               
     start = input(' 크롤링할 첫 제출 번호를 입력하시오 \n: ')
