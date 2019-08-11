@@ -3,9 +3,10 @@
 
 -----------------------------------------
 
-<center><https://codeup.tk> 해당 링크 확인해 주시기 바랍니다. :)  </center>
+<center><https://codeup.tk> 해당 링크 확인해 주시기 바랍니다. :)</center>  
 
 <br>
 <br>
 ---------------------------------------  
+
 <center><strong>Codeup OJ Crawler :: ver 1.0.0</strong></center>
