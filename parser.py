@@ -32,10 +32,11 @@ from bs4 import BeautifulSoup
 
 def main():
     start = input('크롤링할 첫 제출 번호를 입력하시오 : ')
-    end = input('크롤링할 마지막  제출 번호를 입력하시오 : ') # 예외 case 작업 안함
+    end = input('크롤링할 마지막 제출 번호를 입력하시오 : ') # 예외 case 작업 안함
 
     url = end
-
+    eval(start)-=1
+    
     #num = eval(end)-eval(start)
     
     while True:
