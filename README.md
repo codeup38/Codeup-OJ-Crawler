@@ -8,10 +8,10 @@
 코드업에서는 [ID) kimgihong38](https://codeup.kr/userinfo.php?user=kimgihong38) 을 사용하고 있습니다.  
 
 <br>
-가장 메인 모듈인 Submit-Crawler.py 파일에 주석으로 쓴 내용처럼  
+가장 메인 모듈인 Submit-Crawler.py 파일에 주석으로 쓴 내용처럼  <br>
 타인의 사이트를 허가받지 않고 크롤링하는 행위는 **차후에 문제가 될 수 있으며**  
 
-기본적으로 제 Codeup-OJ-Crawler repo는 MIT license이기 때문에 자유롭게 이용, 활용하셔도 상관은 없으나  
+기본적으로 제 Codeup-OJ-Crawler repo는 MIT license이기 때문에 자유롭게 이용, 활용하셔도 상관은 없으나  <br>
 **사이트의 운영자에게 허락을 구하는 것이 먼저입니다.**
 <br>
 예를 들어, [Codeup OJ](https://codeup.kr)같은 사이트에서 사용하시려면 사이트의 운영자인 [admin](https://codeup.kr/userinfo.php?user=kimgihong38)님에게 허락을 구하는 것이 먼저입니다.  
