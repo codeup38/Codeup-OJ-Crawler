@@ -55,7 +55,7 @@ def main():
 
             #print(i)
             
-            if (i%9==0) and (codeup_parser[i].text==start):
+            if (i%9==0) and (codeup_parser[i].text==start): # 171일때 분기 필요
                 
                 return 0
 
