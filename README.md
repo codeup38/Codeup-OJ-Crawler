@@ -9,4 +9,4 @@
 <br>
  
 
-<center><strong>Codeup OJ Crawler :: ver 1.0.0</strong></center>
+**Codeup OJ Crawler :: ver 1.0.0**
