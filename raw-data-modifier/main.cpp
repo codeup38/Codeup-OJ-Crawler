@@ -41,14 +41,14 @@ typedef struct __problem{
 }prob;
 
 
-ident check[4000]; // check[] 선언
+ident check[30001]; // check[] 선언
 prob probSub[7000];
 
 int idlimit;
 
 void clearStruct() // 초기화 해주는 함수
 {
-    for(int i=0; i<4000; i++) {
+    for(int i=0; i<30001; i++) {
         for(int k=0; k<7000; k++) {
 
             if(k<30) check[i].ID[k] = check[i].checkSolve[k] = 0;
@@ -90,7 +90,7 @@ bool compareProb(prob a, prob b) {  if(a.submit == b.submit) return a.num > b.nu
 
 void printAcList() // AC 순위 순서대로 출력
 {
-    FILE *printAC = fopen("AC_list.txt","w");
+    FILE *printAC = fopen("Rank List/AC_Rank.txt","w");
 
     std::sort(check, check + idlimit, compareAC);
 
@@ -107,7 +107,7 @@ void printAcList() // AC 순위 순서대로 출력
 
 void printSubmitList() // 제출 횟수 순서대로 출력 (중복 포함)
 {
-    FILE *printSub = fopen("Total_Submit_list.txt","w");
+    FILE *printSub = fopen("Rank List/Total_Submit_Rank.txt","w");
 
     std::sort(check, check + idlimit, compareSub);
 
@@ -124,7 +124,7 @@ void printSubmitList() // 제출 횟수 순서대로 출력 (중복 포함)
 
 void printFailList() // 트롤 순서대로 출력(틀린 개수 순서)
 {
-    FILE *printFail = fopen("Troll_list.txt","w");
+    FILE *printFail = fopen("Rank List/Troll_Rank.txt","w");
 
     std::sort(check, check + idlimit, compareFail);
 
@@ -141,7 +141,7 @@ void printFailList() // 트롤 순서대로 출력(틀린 개수 순서)
 
 void printProblemList() // 제출 많이 한 문제 순서대로 출력
 {
-    FILE *printProblem = fopen("Problem_list.txt","w");
+    FILE *printProblem = fopen("Rank List/Problem_Rank.txt","w");
 
     std::sort(probSub, probSub + 7000, compareProb);
 
@@ -217,7 +217,7 @@ int main()
                 break;
             }
 
-            index++;
+            index >= 30000 ? puts("범위를 넘어섰습니다. Ctrl-C로 정지시킨 후 check[]의 크기를 늘려주세요.") : index++;
         }
 
         if(!index || (noMatch == true)) {
@@ -231,13 +231,15 @@ int main()
 
             check[index].totalSubmit++;
 
-            idlimit = index;
+            idlimit = index + 1;
         }
 
         index = 0;
         noMatch = true;
 
         submitCount++;
+
+        printf(" Now On : %d\n", submitCount);
     }
 
     /*
@@ -252,6 +254,7 @@ int main()
 
     fclose(readF);
 
+    printf("\n해당 기간동안 코드업을 이용한 회원 수는 %d명으로 집계되었습니다.\n\n", idlimit);
 
     printAcList();
 
@@ -272,6 +275,8 @@ int main()
     puts("");
 
     puts("All Done!\n\nEnjoy :)");
+
+    fflush(stdin); getchar(); // exe 파일 바로 안 꺼지게
 
     return 0;
 }
