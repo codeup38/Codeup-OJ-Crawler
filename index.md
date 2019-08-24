@@ -4,11 +4,13 @@
 <br>
 repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler/blob/master/index.md)    
 
-개발 버전 안내 : [Version Status](https://codeup.tk/Version-status)
+개발 버전 안내 : [Version Status](https://codeup.tk/Version-status)
 
 랭킹 산출 기준 : [how to rank](https://codeup.tk/how-to-rank)
 
-코드업 주간랭킹 보러가기 : [주간 랭킹](https://blog.creatively.dev/tags/#%EC%A3%BC%EA%B0%84%20%EC%BD%94%EB%93%9C%EC%97%85%20%EB%9E%AD%ED%82%B9)
+**★코드업 주간랭킹 보러가기★** : [주간 랭킹](https://blog.creatively.dev/tags/#%EC%A3%BC%EA%B0%84%20%EC%BD%94%EB%93%9C%EC%97%85%20%EB%9E%AD%ED%82%B9)
+
+코드업 월간랭킹은 준비중입니다. 몇 시간 내로 보실 수 있습니다.
 
 -----------------------------------------
 
