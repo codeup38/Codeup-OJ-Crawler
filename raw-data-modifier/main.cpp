@@ -97,7 +97,7 @@ void printAcList() // AC 순위 순서대로 출력
     for(int i = 0; i < idlimit; i++) {
         if(check[i].countSuccess == 0) break;
 
-        fprintf(printAC,"%d) %s %d\n", i+1, check[i].ID, check[i].countSuccess);
+        fprintf(printAC,"%d) %s %d  \n", i+1, check[i].ID, check[i].countSuccess);
     }
 
     fclose(printAC);
@@ -114,7 +114,7 @@ void printSubmitList() // 제출 횟수 순서대로 출력 (중복 포함)
     for(int i = 0; i < idlimit; i++) {
         if(check[i].totalSubmit == 0) break;
 
-        fprintf(printSub,"%d) %s %d\n", i+1, check[i].ID, check[i].totalSubmit);
+        fprintf(printSub,"%d) %s %d  \n", i+1, check[i].ID, check[i].totalSubmit);
     }
 
     fclose(printSub);
@@ -131,7 +131,7 @@ void printFailList() // 트롤 순서대로 출력(틀린 개수 순서)
     for(int i = 0; i < idlimit; i++) {
         if(check[i].countFailSubmit == 0) break;
 
-        fprintf(printFail,"%d) %s %d\n", i+1, check[i].ID, check[i].countFailSubmit);
+        fprintf(printFail,"%d) %s %d  \n", i+1, check[i].ID, check[i].countFailSubmit);
     }
 
     fclose(printFail);
@@ -148,7 +148,7 @@ void printProblemList() // 제출 많이 한 문제 순서대로 출력
     for(int i = 0; i < 7000; i++) {
         if(probSub[i].submit == 0) break;
 
-        fprintf(printProblem,"%d) %d %d\n", i+1, probSub[i].num, probSub[i].submit);
+        fprintf(printProblem,"%d) %d %d  \n", i+1, probSub[i].num, probSub[i].submit);
     }
 
     fclose(printProblem);

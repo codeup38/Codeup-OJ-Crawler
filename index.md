@@ -2,16 +2,20 @@
 #### Codeup OJ Crawler by codeup38
 
 <br>
-repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler/blob/master/index.md)  
+repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler/blob/master/index.md)    
+
+랭킹 산출 기준 : [how-to-rank](https://codeup.tk/how-to-rank)
+
+코드업 주간/월간 제출현황 분석 보러가기 : [MoonWalk - Prestige WorkSpace](https://blog.creatively.dev)
 
 -----------------------------------------
 
-안녕하세요. Codeup OJ Crawler 개발자(~~라고 하기엔 너무 양심이 없죠?~~) codeup38입니다.  
+안녕하세요. Codeup OJ Crawler 개발자 codeup38입니다.  (~~이제 당당하게 개발자라고 할수 있습니다 ㅎㅎ~~)
 
 코드업에서는 [ID) kimgihong38](https://codeup.kr/userinfo.php?user=kimgihong38) 을 사용하고 있습니다.  
 
 <br>
-가장 메인 모듈인 Submit-Crawler.py 파일에 주석으로 쓴 내용처럼  <br>
+가장 메인 모듈인 Crawler.py 파일에 주석으로 쓴 내용처럼  <br>
 타인의 사이트를 허가받지 않고 크롤링하는 행위는 **차후에 문제가 될 수 있으며**  
 
 기본적으로 제 Codeup-OJ-Crawler repo는 MIT license이기 때문에 자유롭게 이용, 활용하셔도 상관은 없으나  <br>
@@ -28,7 +32,7 @@ repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler/
 제 소스가 많은 도움이 되었으면 합니다.  
 
 <br>
-저 또한 굉장히 고생했으니까요..  
+저 또한 굉장히 고생했으니까요..(~~하지만 아직 고생할게 너무 많이 남았죠~~)  
 아래는 이용 방법입니다. 참고하세요.
 
 --------------------------------
@@ -45,10 +49,39 @@ repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler/
 **PowerShell 창이 열린 뒤에 몇 초간 딜레이가 있을 수 있습니다.**  
 
 ``` pip install requests ```  
-``` pip install bs4 ```
+``` pip install bs4 ``` 
+
+```pip install tqdm```  
+
 <br>
-4. 이제 Submit-Crawler.py를 실행해서 즐기시면 됩니다.  
-Enjoy!
+
+4. repo에 올려져 있는 Crawler 폴더 자체를 다운받습니다.<br>
+
+  먄약 raw-data-modifier.exe의 원래 소스 코드가 필요하다면 raw-data-modifier 폴더를 참고하시면 됩니다.  
+
+  <br>
+
+5. Crawler.py를 실행합니다. **크롤링 시 상태바가 보여집니다. 하지만 쉘 같은 환경에서는 제대로 상태바가 보이지 않을 수 있으니, exe 형태로 실행하는 것을 추천드립니다(IDLE 기준으로 그냥 클릭해서 실행)**    
+
+  <br>
+
+  origin_data.txt와 raw_data.txt가 생깁니다.  
+
+  raw_data.txt에서 빠진 제출번호는 없는지, 누락된 데이터는 없는지 확인해주세요.  
+
+
+
+​		origin_data는 제출 결과에 공백이 있고, raw_data는 공백이 없습니다.  
+
+​		**이후 데이터 가공에 쓰이는 파일은 raw_data.txt입니다.**
+
 <br>
+
+6. raw_data_modifier.exe를 실행합니다.
+7. 프로그램의 실행이 끝나면 Rank LIst 폴더 내부에 4가지의 txt 파일이 생성됩니다.
+
 <br>
-**아직 구현이 완료되지 않았습니다. 이 점 유의하시기 바랍니다.**
+
+<br>
+
+​	**Crawler.py 사용을 권장하지 않습니다. 많은 사람이 해당 크롤러를 단순히 이용하여 Codeup OJ 서버에 과부화를 가하는 것을 원하지 않습니다. 소스를 열람하며 열심히 익히고 응용하되, Codeup OJ의 운영자를 비롯한 다른 사람들을 위해 삼가해 주셨으면 합니다.**

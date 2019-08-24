@@ -13,7 +13,6 @@
 #
 
 import requests
-from urllib.request import urlopen
 from bs4 import BeautifulSoup
 from modify import modifyData
 from tqdm import tqdm
@@ -62,57 +61,66 @@ AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'}
 
     
 
-    total = eval(end) - eval(start) + 1
+    aim = eval(end) - eval(start) + 1
 
     print('\n\n 크롤링을 시작합니다.\n\n 개수에 따라 시간이 다소 걸릴수 \
 있습니다.')
 
-    print(' 크롤링을 요청하신 제출 기록의 개수는', total, '개 입니다.')
+    print(' 크롤링을 요청하신 제출 기록의 개수는', aim,'개 입니다.\n')
     
     file = open("data_origin.txt",'w+')
     
     url = end
     start=eval(start)-1
     
+
+    with tqdm(total = aim*9) as status:
+        while True:
+        
+            req = requests.get('https://codeup.kr/status.php?&top='+url, headers = user_agent)
+            html = req.text
+            soup = BeautifulSoup(html, "html.parser")
+
+            inturl = eval(url)
+        
+            codeup_parser = soup.select (
+                'tr > td'
+                )
+
+        
+            for i in range (0,180,1):
+
+            
+                if (i%9==0) and (codeup_parser[i].text==str(start)):
+
+                    status.update(0)
+                    
+                    file.close() # Close File
+                
+                    modifyData() # from modify.py
+                    
+                    
+                    print('\n\n==========Done!==========')
+                    input('Press Any Key ')
+                    return 0
+
+                if i%9==0 and i!=0:
+                    file.write('\n')
+                    
+
+                file.write(codeup_parser[i].text)
+                file.write(' ')
+
+                status.update(1)
+            
+        
+
+            file.write('\n')
+            inturl-=20
+            url = str(inturl)
+
     
-    while True:
-        
-        req = requests.get('https://codeup.kr/status.php?&top='+url, headers = user_agent)
-        html = req.text
-        soup = BeautifulSoup(html, "html.parser")
 
-        inturl = eval(url)
-        
-        codeup_parser = soup.select (
-            'tr > td'
-            )
-
-        
-        for i in range (0,180,1):
-
-            
-            if (i%9==0) and (codeup_parser[i].text==str(start)):
-                print('==========Done!==========')
-                input('Press Any Key ')
-                return 0
-
-            if i%9==0 and i!=0:
-                file.write('\n')
-                trange(total,1,-1)
-
-            file.write(codeup_parser[i].text)
-            file.write(' ')
-
-            
-        
-
-        file.write('\n')
-        inturl-=20
-        url = str(inturl)
-
-    file.close()
-
-    modifyData() # from data-modify.py
-
+    
 if __name__ == '__main__':
     main()
