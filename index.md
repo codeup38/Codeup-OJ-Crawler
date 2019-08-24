@@ -10,7 +10,7 @@ repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler/
 
 **★코드업 주간랭킹 보러가기★** : [주간 랭킹](https://blog.creatively.dev/tags/#%EC%A3%BC%EA%B0%84%20%EC%BD%94%EB%93%9C%EC%97%85%20%EB%9E%AD%ED%82%B9)
 
-**★코드업 월간랭킹 보러가기★** : [월간 랭킹]([https://blog.creatively.dev/tags/#%EC%9B%94%EA%B0%84%20%EC%BD%94%EB%93%9C%EC%97%85%20%EB%9E%AD%ED%82%B9](https://blog.creatively.dev/tags/#월간 코드업 랭킹))
+**★코드업 월간랭킹 보러가기★** : [월간 랭킹](https://blog.creatively.dev/tags/#%EC%9B%94%EA%B0%84%20%EC%BD%94%EB%93%9C%EC%97%85%20%EB%9E%AD%ED%82%B9)
 
 -----------------------------------------
 
@@ -89,3 +89,14 @@ repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler/
 
 
 **소스를 열람하며 열심히 익히고 응용하되, Codeup OJ의 운영자를 비롯한 다른 사람들을 위해 삼가해 주셨으면 합니다.**
+
+
+
+ <head><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144551143-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-144551143-3');
+</script></head>
