@@ -74,9 +74,9 @@ repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler/
 
 
 
-​		origin_data는 제출 결과에 공백이 있고, raw_data는 공백이 없습니다.  
+	origin_data는 제출 결과에 공백이 있고, raw_data는 공백이 없습니다.  
 
-​		**이후 데이터 가공에 쓰이는 파일은 raw_data.txt입니다.**
+	**이후 데이터 가공에 쓰이는 파일은 raw_data.txt입니다.**
 
 <br>
 
