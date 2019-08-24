@@ -21,6 +21,7 @@ repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler/
 기본적으로 제 Codeup-OJ-Crawler repo는 MIT license이기 때문에 자유롭게 이용, 활용하셔도 상관은 없으나  <br>
 **사이트의 운영자에게 허락을 구하는 것이 먼저입니다.**
 <br>
+
 예를 들어, [Codeup OJ](https://codeup.kr)같은 사이트에서 사용하시려면 사이트의 운영자인 [admin](https://codeup.kr/userinfo.php?user=admin)님에게 허락을 구하는 것이 먼저입니다.  
 <br>
 **실제로 저는 admin님에게 직접 사용 용도와 서버에 미칠 영향 등을 설명드리고 허락을 구했고, 허락을 받았습니다.**
@@ -57,14 +58,14 @@ repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler/
       ```pip install tqdm```  <br>
 4. repo에 올려져 있는 Crawler 폴더 자체를 다운받습니다.<br>
    먄약 raw-data-modifier.exe의 원래 소스 코드가 필요하다면 raw-data-modifier 폴더를 참고하시면 됩니다.  
-  <br>
+    <br>
 5. Crawler.py를 실행합니다. **크롤링 시 상태바가 보여집니다. 하지만 쉘 같은 환경에서는 제대로 상태바가 보이지 않을 수 있으니, exe 형태로 실행하는 것을 추천드립니다(IDLE 기준으로 그냥 클릭해서 실행)**    
-  <br>
-  origin_data.txt와 raw_data.txt가 생깁니다.<br>  
-  raw_data.txt에서 빠진 제출번호는 없는지, 누락된 데이터는 없는지 확인해주세요.  <br>
+    <br>
+    origin_data.txt와 raw_data.txt가 생깁니다.<br>  
+    raw_data.txt에서 빠진 제출번호는 없는지, 누락된 데이터는 없는지 확인해주세요.  <br>
 <br>
-  origin_data는 제출 결과에 공백이 있고, raw_data는 공백이 없습니다.  <br>
-  **이후 데이터 가공에 쓰이는 파일은 raw_data.txt입니다.**<br>
+    origin_data는 제출 결과에 공백이 있고, raw_data는 공백이 없습니다.  <br>
+    **이후 데이터 가공에 쓰이는 파일은 raw_data.txt입니다.**<br>
 <br><br>
 6. raw_data_modifier.exe를 실행합니다.<br><br>
 7. 프로그램의 실행이 끝나면 Rank LIst 폴더 내부에 4가지의 txt 파일이 생성됩니다.
