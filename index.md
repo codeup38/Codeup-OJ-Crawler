@@ -54,30 +54,19 @@ repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler/
     
       ``` pip install bs4 ``` 
     
-      ```pip install tqdm```  
-
-<br>
-
+      ```pip install tqdm```  <br>
 4. repo에 올려져 있는 Crawler 폴더 자체를 다운받습니다.<br>
-
    먄약 raw-data-modifier.exe의 원래 소스 코드가 필요하다면 raw-data-modifier 폴더를 참고하시면 됩니다.  
-
   <br>
-
 5. Crawler.py를 실행합니다. **크롤링 시 상태바가 보여집니다. 하지만 쉘 같은 환경에서는 제대로 상태바가 보이지 않을 수 있으니, exe 형태로 실행하는 것을 추천드립니다(IDLE 기준으로 그냥 클릭해서 실행)**    
-
   <br>
-
   origin_data.txt와 raw_data.txt가 생깁니다.<br>  
   raw_data.txt에서 빠진 제출번호는 없는지, 누락된 데이터는 없는지 확인해주세요.  
 <br>
   origin_data는 제출 결과에 공백이 있고, raw_data는 공백이 없습니다.  <br>
   **이후 데이터 가공에 쓰이는 파일은 raw_data.txt입니다.**
-
 <br>
-
-6. raw_data_modifier.exe를 실행합니다.
-
+6. raw_data_modifier.exe를 실행합니다.<br>
 7. 프로그램의 실행이 끝나면 Rank LIst 폴더 내부에 4가지의 txt 파일이 생성됩니다.
 
    각각의 txt 파일 내에 산출된 순위가 있습니다. ([참고](https://codeup.tk/how-to-rank))
