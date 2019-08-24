@@ -4,9 +4,11 @@
 <br>
 repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler/blob/master/index.md)    
 
-랭킹 산출 기준 : [how-to-rank](https://codeup.tk/how-to-rank)
+개발 버전 안내 : [Version Status](https://codeup.tk/Version-status)
 
-코드업 주간 제출현황 분석 보러가기 : [MoonWalk - Prestige WorkSpace](https://blog.creatively.dev/tags/#%EC%A3%BC%EA%B0%84%20%EC%BD%94%EB%93%9C%EC%97%85%20%EB%9E%AD%ED%82%B9)
+랭킹 산출 기준 : [how to rank](https://codeup.tk/how-to-rank)
+
+코드업 주간랭킹 보러가기 : [주간 랭킹](https://blog.creatively.dev/tags/#%EC%A3%BC%EA%B0%84%20%EC%BD%94%EB%93%9C%EC%97%85%20%EB%9E%AD%ED%82%B9)
 
 -----------------------------------------
 
@@ -35,6 +37,8 @@ repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler/
 <br>
 저 또한 굉장히 고생했으니까요..(~~하지만 아직 고생할게 너무 많이 남았죠~~)  
 아래는 이용 방법입니다. 참고하세요.
+
+**산출된 랭킹만 보려고 하시는 분들은 페이지 상단의 링크를 이용해 주세요**
 
 --------------------------------
 
