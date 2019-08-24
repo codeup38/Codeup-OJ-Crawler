@@ -6,7 +6,7 @@ repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler/
 
 랭킹 산출 기준 : [how-to-rank](https://codeup.tk/how-to-rank)
 
-코드업 주간 제출현황 분석 보러가기 : [MoonWalk - Prestige WorkSpace][https://blog.creatively.dev/tags/#%EC%A3%BC%EA%B0%84%20%EC%BD%94%EB%93%9C%EC%97%85%20%EB%9E%AD%ED%82%B9](https://blog.creatively.dev/tags/#주간%20코드업%20랭킹)
+코드업 주간 제출현황 분석 보러가기 : [MoonWalk - Prestige WorkSpace][https://blog.creatively.dev/tags/#%EC%A3%BC%EA%B0%84%20%EC%BD%94%EB%93%9C%EC%97%85%20%EB%9E%AD%ED%82%B9]
 
 -----------------------------------------
 
