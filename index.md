@@ -65,7 +65,7 @@ repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler/
 <br>
   origin_data는 제출 결과에 공백이 있고, raw_data는 공백이 없습니다.  <br>
   **이후 데이터 가공에 쓰이는 파일은 raw_data.txt입니다.**<br>
-<br>
+<br><br>
 6. raw_data_modifier.exe를 실행합니다.<br><br>
 7. 프로그램의 실행이 끝나면 Rank LIst 폴더 내부에 4가지의 txt 파일이 생성됩니다.
 <br>
