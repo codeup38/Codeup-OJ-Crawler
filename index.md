@@ -40,21 +40,21 @@ repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler/
 **Windows 환경 기준으로 설명드립니다.**  
 
 1. 파이썬3을 설치합니다.  
-  <https://python.org/downloads> 에서 설치하실수 있으며, 저는 Python 3.7.4에서 개발하였습니다.  
-  <br>
+    <https://python.org/downloads> 에서 설치하실수 있으며, 저는 Python 3.7.4에서 개발하였습니다.  
+    <br>
 
 2. IDLE 또는 .py 파일을 컴파일해 실행할수 있는 컴파일러를 설치합니다.  
-  참고로 IDLE는 Python 3를 설치할 때 설치됩니다. 따로 설치할 필요가 없습니다.  
-  <br>
+    참고로 IDLE는 Python 3를 설치할 때 설치됩니다. 따로 설치할 필요가 없습니다.  
+    <br>
 
 3. Windows PowerShell을 열고 아래의 명령어를 입력합니다.  
-  **PowerShell 창이 열린 뒤에 몇 초간 딜레이가 있을 수 있습니다.**  
-
-  ``` pip install requests ```  
-
-  ``` pip install bs4 ``` 
-
-  ```pip install tqdm```  
+    **PowerShell 창이 열린 뒤에 몇 초간 딜레이가 있을 수 있습니다.**  
+    
+      ``` pip install requests ```  
+    
+      ``` pip install bs4 ``` 
+    
+      ```pip install tqdm```  
 
 <br>
 
