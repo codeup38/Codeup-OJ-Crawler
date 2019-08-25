@@ -23,3 +23,9 @@
 
 
 
+
+
+<meta name="google-site-verification" content="{{ site.google.verify }}">
+
+
+
