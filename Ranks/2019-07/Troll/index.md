@@ -4044,4 +4044,4 @@
 4036) lee_0612 1  
 4037) stxsoul 1  
 
-<meta name="google-site-verification" content="{{ site.google.verify }}">
+<head>{% include Analytics.html %}</head>
