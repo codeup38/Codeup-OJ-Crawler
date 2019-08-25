@@ -1056,3 +1056,5 @@
 1049) rio2718 1  
 1050) park9734 1  
 1051) no353 1  
+
+<meta name="google-site-verification" content="{{ site.google.verify }}">
