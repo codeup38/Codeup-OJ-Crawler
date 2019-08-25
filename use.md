@@ -52,4 +52,4 @@
 
 **소스를 열람하며 열심히 익히고 응용하되, Codeup OJ의 운영자를 비롯한 다른 사람들을 위해 삼가해 주셨으면 합니다.**
 
-<meta name="google-site-verification" content="{{ site.google.verify }}">
+<head>{% include Analytics.html %}</head>
