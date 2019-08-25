@@ -8078,3 +8078,6 @@
 8070) costor 1  
 8071) tera 1  
 8072) enderpawar 1  
+
+
+<meta name="google-site-verification" content="{{ site.google.verify }}">
