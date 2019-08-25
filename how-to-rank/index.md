@@ -75,3 +75,6 @@
   <br>
 
   데이터는 [ 순위, 문제 번호, 제출한 기록 수 ] 순서대로 작성됩니다.
+  
+  
+  <meta name="google-site-verification" content="{{ site.google.verify }}">
