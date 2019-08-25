@@ -8620,4 +8620,4 @@
 8612) lee_0612 1  
 8613) stxsoul 1  
 
-<meta name="google-site-verification" content="{{ site.google.verify }}">
+<head>{% include Analytics.html %}</head>
