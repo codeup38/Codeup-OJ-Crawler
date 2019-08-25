@@ -58,11 +58,4 @@ gbshs161101, jswge2_8, 	Next_Coding님 감사합니다! :)
 
 
 
- <head><!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144551143-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-144551143-3');
-</script></head>
+ <head>{% include Analytics.html %}</head>
