@@ -1057,4 +1057,4 @@
 1050) park9734 1  
 1051) no353 1  
 
-<meta name="google-site-verification" content="{{ site.google.verify }}">
+<head>{% include Analytics.html %}</head>
