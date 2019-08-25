@@ -1205,3 +1205,5 @@
 1197) 2749 1  
 1198) 2713 1  
 1199) 2418 1  
+
+<meta name="google-site-verification" content="{{ site.google.verify }}">
