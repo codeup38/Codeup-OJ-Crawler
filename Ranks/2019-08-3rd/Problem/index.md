@@ -1,4 +1,4 @@
-﻿## Problem Rank (많이 푼 문제 수 기준)
+﻿## Problem Rank (많이 푼 문제 기준)
 #### 2019년 8월 3주차  
 
 [랭킹 산출 기준](https://codeup.tk/how-to-rank)

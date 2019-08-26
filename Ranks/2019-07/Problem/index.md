@@ -1,4 +1,4 @@
-## Problem Rank (많이 푼 문제 수 기준)
+## Problem Rank (많이 푼 문제 기준)
 
 #### 2019년 7월
 
