@@ -8,7 +8,7 @@
 
 <head>{% include Analytics.html %}</head>
 |순위|Codeup ID|맞은 문제수|
-|:--:|:---:|:---:|
+|:---:|:---:|:---:|
 |1|doctorkkm|189|
 |2|py&#95;adds136078|164|
 |3|jbs29&#95;pypy|158|
