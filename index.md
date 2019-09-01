@@ -15,12 +15,13 @@ repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler)
 -----------------------------------------
 
 [Codeup OJ 자기소개란](https://codeup.kr/ranklist.php?start=0)에 <https://codeup.tk>를 올려주신  
-gbshs161101, jswge2_8, KORabcd, Next_Coding님 감사합니다! :)
+~~gbshs161101~~, jswge2_8, KORKING, KORabcd, Next_Coding님 감사합니다! :)
 
 안녕하세요. Codeup OJ Crawler 개발자 codeup38입니다.  (~~이제 당당하게 개발자라고 할수 있습니다 ㅎㅎ~~)
 
 코드업에서는 [ID) kimgihong38](https://codeup.kr/userinfo.php?user=kimgihong38) 을 사용하고 있습니다.  
-
+<br>
+주간 랭킹은 매주 월요일 정도에, 월간 랭킹은 매월 1일 정도에 업로드하고 있습니다.
 <br>
 가장 메인 모듈인 Crawler.py 파일에 주석으로 쓴 내용처럼  <br>
 타인의 사이트를 허가받지 않고 크롤링하는 행위는 **차후에 문제가 될 수 있으며**  
