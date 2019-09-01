@@ -21,7 +21,7 @@ repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler)
 
 코드업에서는 [ID) kimgihong38](https://codeup.kr/userinfo.php?user=kimgihong38) 을 사용하고 있습니다.  
 <br>
-주간 랭킹은 매주 월요일 정도에, 월간 랭킹은 매월 1일 정도에 업로드하고 있습니다.
+주간 랭킹은 매주 월요일 정도에, 월간 랭킹은 매월 1일 정도에 업로드하고 있습니다.  
 <br>
 가장 메인 모듈인 Crawler.py 파일에 주석으로 쓴 내용처럼  <br>
 타인의 사이트를 허가받지 않고 크롤링하는 행위는 **차후에 문제가 될 수 있으며**  
