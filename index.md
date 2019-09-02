@@ -15,7 +15,7 @@ repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler)
 -----------------------------------------
 
 [Codeup OJ 자기소개란](https://codeup.kr/ranklist.php?start=0)에 <https://codeup.tk>를 올려주신  
-gbshs161101, jswge2_8, KORabcd, Next_Coding님 감사합니다! :)    
+~~gbshs161101~~, jswge2_8, KORabcd, Next_Coding님 감사합니다! :)    
 
 <br>
 
