@@ -5,6 +5,7 @@
 [랭킹 산출 기준](https://codeup.tk/how-to-rank)
 
 -----------------------
+<head>{% include Analytics.html %}</head>
 
 | 순위 | 문제 번호 | 제출된 횟수 |
 | :--: | :-------: | :---------: |
