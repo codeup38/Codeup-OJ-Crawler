@@ -36,6 +36,10 @@ def modifyData():
                 
             printFile.write('\n')
 
+        elif res[3] == '컴파일' and res[4] == '중': # 컴파일 중 ---
+            print('데이터 내에 \'컴파일 중\'인 데이터가 있습니다.\n')
+            print(res[0],'번을 확인해주세요. (크롤링에서 제외됩니다)\n')
+
         else:
             for i in range(len(res)-1):
                 if i == 3:
