@@ -19,6 +19,14 @@ repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler)
 
 <br>
 
+<br>
+
+**슬슬 사이트의 디자인을 손보려고 합니다. 언제든지 도움은 환영입니다 :)**  
+
+**향후에 이용할 사이트 이름을 추천받습니다! <br>도메인 이름은 사이트 이름과 동일하게 설정할 예정입니다.**  
+
+-------------------
+
 안녕하세요. Codeup OJ Crawler 개발자 codeup38입니다.  (~~이제 당당하게 개발자라고 할수 있습니다 ㅎㅎ~~)
 
 코드업에서는 [ID) kimgihong38](https://codeup.kr/userinfo.php?user=kimgihong38) 을 사용하고 있습니다.  
