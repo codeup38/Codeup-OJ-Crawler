@@ -11,7 +11,7 @@ repo 주소 : [Codeup-OJ-Crawler](https://github.com/codeup38/Codeup-OJ-Crawler)
 **★코드업 주간랭킹 보러가기★** : [주간 랭킹](https://blog.creatively.dev/tags/#%EC%A3%BC%EA%B0%84%20%EC%BD%94%EB%93%9C%EC%97%85%20%EB%9E%AD%ED%82%B9)  
 <br>
 현재 노트북 고장 + 무선 랜 드라이버 맛감 + 집 인터넷 회선에서 <codeup.tk>접속 안됨 등의 이유로 업데이트를 못하고 있습니다. ㅠㅡㅠ  
-윈도우 10 설치하고 올게오..  <br>
+윈도우 10 설치하고 올게오..  <br>  
 **★코드업 월간랭킹 보러가기★** : [월간 랭킹](https://blog.creatively.dev/tags/#%EC%9B%94%EA%B0%84%20%EC%BD%94%EB%93%9C%EC%97%85%20%EB%9E%AD%ED%82%B9)
 
 -----------------------------------------
